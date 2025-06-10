@@ -4,12 +4,26 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --no-watch",
-      "install-env": "node ./scripts/install.js"
+    "install-env": "node ./scripts/install.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "contentful",
+    "contentful-management",
+    "admin",
+    "bulk-delete",
+    "bulk-publish",
+    "unpublish",
+    "automation",
+    "content-management",
+    "CrashBytes"
+  ],
+  "author": "Michael Eakins",
+  "license": "GPL",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrashBytes/contentful-admin"
+  },
   "dependencies": {
     "contentful-management": "^11.52.2"
   },

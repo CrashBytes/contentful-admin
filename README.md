@@ -131,3 +131,17 @@ GPL
 ## Author
 
 Michael Eakins
+
+---
+
+## Company
+
+Visit [CrashBytes](https://www.crashbytes.com) for more projects and services.
+
+---
+
+## Bug Reports & Contributions
+
+If you encounter a bug or have a feature request, please [open an issue](https://github.com/CrashBytes/contentful-admin/issues) on GitHub.
+
+Pull requests are welcome!

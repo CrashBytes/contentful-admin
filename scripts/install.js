@@ -3,7 +3,8 @@ const path = require('path');
 
 const envPath = path.resolve(process.cwd(), '.env');
 const requiredVars = [
-  'ACCESS_TOKEN=your_access_token_here'
+  'ACCESS_TOKEN=your_access_token_here',
+  'SPACE_ID=your_space_id'
 ];
 
 let envContent = '';

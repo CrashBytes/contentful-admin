@@ -1,5 +1,7 @@
 import contentful from 'contentful-management';
 
+const SPACE_ID = process.env.SPACE_ID || 'none';
+
 const client = contentful.createClient({
 
  accessToken: process.env.ACCESS_TOKEN,
@@ -24,7 +26,7 @@ async function handleBulkAction(contentType, action) {
 
   console.log(`Fetching space and environment for bulk ${action}...`);
 
-  const space = await client.getSpace('s4uk19y7fmbp');
+  const space = await client.getSpace(SPACE_ID);
 
   const environment = await space.getEnvironment('QA');
 

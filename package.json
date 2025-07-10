@@ -1,37 +1,24 @@
 {
   "name": "contentful-admin",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --no-watch",
-    "install-env": "node ./scripts/install.js"
-  },
+  "description": "This is an administrative tool for interacting with contentful",
   "keywords": [
     "contentful",
-    "contentful-management",
-    "admin",
-    "bulk-delete",
-    "bulk-publish",
-    "unpublish",
-    "automation",
-    "content-management",
-    "CrashBytes"
+    "administrative"
   ],
-  "author": "Michael Eakins",
-  "license": "GPL",
-  "description": "",
+  "homepage": "https://github.com/CrashBytes/contentful-admin#readme",
+  "bugs": {
+    "url": "https://github.com/CrashBytes/contentful-admin/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CrashBytes/contentful-admin"
+    "url": "git+https://github.com/CrashBytes/contentful-admin.git"
   },
-  "dependencies": {
-    "contentful-management": "^11.52.2"
-  },
-  "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
-    "@babel/preset-env": "^7.27.2",
-    "babel-jest": "^30.0.0",
-    "dotenv": "^16.5.0",
-    "jest": "^30.0.0"
+  "license": "ISC",
+  "author": "Michael Eakins",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
   }
 }

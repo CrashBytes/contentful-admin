@@ -19,6 +19,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "concurrently \"yarn --cwd client dev\" \"yarn --cwd server dev\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.0"
   }
 }

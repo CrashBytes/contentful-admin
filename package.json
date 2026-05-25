@@ -1,28 +1,28 @@
 {
-  "name": "contentful-admin",
-  "version": "1.0.0",
-  "description": "This is an administrative tool for interacting with contentful",
-  "keywords": [
-    "contentful",
-    "administrative"
-  ],
-  "homepage": "https://github.com/CrashBytes/contentful-admin#readme",
-  "bugs": {
-    "url": "https://github.com/CrashBytes/contentful-admin/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CrashBytes/contentful-admin.git"
-  },
-  "license": "ISC",
-  "author": "Michael Eakins",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "dev": "concurrently \"yarn --cwd client dev\" \"yarn --cwd server dev\""
-  },
-  "dependencies": {
-    "concurrently": "^9.2.0"
-  }
+    "name": "contentful-admin",
+    "version": "1.0.0",
+    "description": "This is an administrative tool for interacting with contentful",
+    "keywords": [
+        "contentful",
+        "administrative"
+    ],
+    "homepage": "https://github.com/CrashBytes/contentful-admin#readme",
+    "bugs": {
+        "url": "https://github.com/CrashBytes/contentful-admin/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CrashBytes/contentful-admin.git"
+    },
+    "license": "ISC",
+    "author": "Michael Eakins",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "dev": "concurrently \"yarn --cwd client dev\" \"yarn --cwd server dev\""
+    },
+    "dependencies": {
+        "concurrently": "^9.2.1"
+    }
 }

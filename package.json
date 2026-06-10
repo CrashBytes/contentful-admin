@@ -23,6 +23,6 @@
         "dev": "concurrently \"yarn --cwd client dev\" \"yarn --cwd server dev\""
     },
     "dependencies": {
-        "concurrently": "^9.2.1"
+        "concurrently": "^10.0.3"
     }
 }

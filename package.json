@@ -23,7 +23,7 @@
         "dev": "concurrently \"yarn --cwd client dev\" \"yarn --cwd server dev\""
     },
     "dependencies": {
-        "concurrently": "^10.0.5"
+        "concurrently": "^10.0.6"
     },
     "overrides": {
         "shell-quote": ">=1.11.0"
